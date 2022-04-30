@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Rage Italic LET; /* Имя шрифта */
+    src: url(../fonts/education/12205.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+.allEducation {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+    height: auto;
+    text-align: center;
+    border: solid 0px black;
+}
+
+    .eduCourses {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        border: solid 1px black;
+    }
+    
+        .course {
+            position: relative;
+            margin: 0 auto;
+            width: 300px;
+            height: 150px;
+            border: dashed 1px black;
+        }
+        
+        
+/*@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400');*/
+
+/**,*/
+/**:before,*/
+/**:after{*/
+/*  box-sizing: border-box;*/
+/*}*/
+/**/
+/** {*/
+/*  user-select: none; */
+/*  -webkit-tap-highlight-color: rgba(0,0,0,0); */
+/*  transform-style: preserve-3d; */
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*}*/
+/**/
+/**:focus {*/
+/*  outline: none!important; */
+/*}*/
+
+
+.container{
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  perspective: 1000px;
+  perspective-origin: center;
+}
+
+
+
+.educ-container{
+  position: relative;
+  width: 980px;
+  height:  355px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: Rage Italic LET;
+  opacity: .89;
+  color: white;
+  background: url(img/blackboard.png) no-repeat;
+  background-size: 100%;
+  border: solid 1px white;
+}
+
+
+  .educ-container h3 {
+    font-size: 30px;
+    border: solid 0px white;
+    height: 35px;
+    letter-spacing: 5px;
+  }
+.educ-container h3:after {
+  content: " ";
+  display: block; 
+  width: 10%;
+  height: 2px;
+  margin: 20px auto;
+  border: 0;
+  background: #1563A3;
+  transition:all 0.2s
+}
+
+.educ-container:hover,
+.educ-container:focus{
+  opacity: 1;
+}
+
+
+  .classEnter {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: solid 0px white;
+    
+  }
+  
+    .classEnter a {
+      color: white;
+    }
+    .classEnter a:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    
+    
+    .borderLesson {
+      position: relative;
+      margin: 0 auto;
+      width: 950px;
+      font-size: 26px;
+      height: 200px;
+      border: solid 0px white;
+    }
+
