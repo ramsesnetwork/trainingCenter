@@ -80,6 +80,180 @@
                     </tr>
                 </tbody>
             </table>
-            
+            <br/><br/><br/><br/><br/><br/>
+            <?php include ("functions/lingo.php"); ?>
+<script type="text/javascript">
+function classEnter() {
+  alert ("В классе нет учителя!");
+}
+</script>
+<link rel="stylesheet" href="css/trainingCenter.css" />
+<div class="allEducation">
+  
+  <div class="footer-title">
+        <ul>
+          <li>
+             <span class="glitch" data-text="<?=$DATE->footer['TEAM']['TEAMEDUC'];?>">
+             <a href=""><?=$DATE->footer['TEAM']['TEAMEDUC'];?></a>
+             </span>
+          </li>
+        </ul>
+    </div>
+  
+   
+   
+    <br/><br/>
+    <div class="educ-container">
+      <h3>WEB-РАЗРАБОТКА</h3>
+      <table class="borderLesson" >
+        <tr>
+          <td>FRONTEND</td><td>BACKEND</td>
+        </tr>
+        <tr>
+          <td>HTML - Hyper Text Markup Language  <br/> CSS - Cascading Style Sheets <br/> JavaScript - High Level, Interpreted Programming Language</td>
+          <td>PHP - Hypertext Preprocessor <br/> MySQL - Open-Source Relational Database Management System <br/> AJAX - Asynchronous JavaScript And XML</td>
+        </tr>
+        
+      </table>
+      <div class="classEnter">
+        <a href="#" onclick="classEnter();">ВОЙТИ В КЛАСС</a>
+      </div>
+    </div>
+    
+    <div class="educ-container">
+      <h3>MOBILE-РАЗРАБОТКА</h3>
+      <table class="borderLesson" >
+        <tr>
+          <td>ANDROID</td><td>IOS</td>
+        </tr>
+        <tr>
+          <td>JAVA - General-Purpose Object-Oriented Programming Language<br/> KOTLIN - Statically Typed Programming Language <br/> C++ - General-Purpose Programming Language</td>
+          <td>C - Imperative Computer Programming Language <br/> SWIFT - Multi-Paradigm, Compiled Programming Language <br/> OBJECTIVE-C - Object-Oriented Programming Language</td>
+        </tr>
+        
+      </table>
+      <div class="classEnter">
+        <a href="#" onclick="classEnter();">ВОЙТИ В КЛАСС</a>
+      </div>
+    </div>
+    
+    
+    <div class="educ-container">
+      <h3>SOFTWARE ENGINEERING</h3>
+       <table class="borderLesson" >
+        <tr>
+          <td>SOFTWARE SYSTEMS</td><td>DEVELOPMENT PROCESSES</td>
+        </tr>
+        <tr>
+          <td>Expert Systems <br/> Executive Systems <br/> Management Information Systems<br/> Manufacturing Operations Management</td>
+          <td>Requirements Engineering<br/> Design Architecture <br/> Software Construction <br/> Software Quality</td>
+        </tr>
+        
+      </table>
+      <div class="classEnter">
+        <a href="#" onclick="classEnter();">ВОЙТИ В КЛАСС</a>
+      </div>
+    </div>
+    
+    
+    <div class="educ-container">
+      <h3>DIGITAL-MARKETING</h3>
+      <table class="borderLesson" >
+        <tr>
+          <td>MARKETING METHODS</td><td>MARKETING TOOLS</td>
+        </tr>
+        <tr>
+          <td>Search Engine Optimization (SEO) <br/>  Search Engine Marketing (SEM) <br/>  Social Media Marketing (SMM)<br/>  E-mail Direct Marketing</td>
+          <td>Google Analytics<br/> Google Adwords <br/> Yandex Metrica <br/> Web-Services</td>
+        </tr>
+        
+      </table>
+      <div class="classEnter">
+        <a href="#" onclick="classEnter();">ВОЙТИ В КЛАСС</a>
+      </div>
+    </div>
+    
+  
+
+    
+    
+    
+    <div class="educ-container">
+      <h3>ДИЗАЙН ИНТЕРФЕЙСОВ</h3>
+      
+      <table class="borderLesson" >
+        
+        <tr>
+          <td>КОНЦЕПЦИЯ ДИЗАЙНА  &emsp;  ВИЗУАЛИЗАЦИЯ  &emsp;  UX, UXD, UED or XD <br/><br/> СТРУКТУРИЗАЦИЯ, ОРГАНИЗАЦИЯ И МАРКЕТИРОВАНИЕ <br/> <br/> WEB-ОРИЕНТИРОВАННОСТЬ &emsp; ЮЗАБИЛИТИ</td>
+        </tr>
+        
+      </table>
+      <div class="classEnter">
+        <a href="#" onclick="classEnter();">ВОЙТИ В КЛАСС</a>
+      </div>
+    </div>
+    
+    
+    
+  
+  
+  
+
+  <table class="eduCourses" border style='display: none;'>
+    <tr>
+        <td>
+            <div class="course">
+                ВЕБ-РАЗРАБОТКА
+            </div>
+        </td>
+        <td>
+            <div class="course">
+                ДИЗАЙН ИНТЕРФЕЙСОВ
+            </div>
+        </td>
+        <td>
+            <div class="course">
+                FRONTEND-РАЗРАБОТКА
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="course">
+                MOBILE-РАЗРАБОТКА
+            </div>
+        </td>
+        <td>
+            <div class="course">
+                ПРОГРАММИРОВАНИЕ НА ANDROID
+            </div>
+        </td>
+        <td>
+            <div class="course">
+                ПРОГРАММИРОВАНИЕ НА iOS
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="course">
+                ПРОЕКТИРОВАНИЕ АРХИТЕКТУРЫ ПО
+            </div>
+        </td>
+        <td>
+            <div class="course">
+                ПРОГРАММИРОВАНИЕ НА JAVA
+            </div>
+        </td>
+        <td>
+            <div class="course">
+                РАЗРАБОТКА ИГР
+            </div>
+        </td>
+    </tr>
+  </table>
+  
+</div>
+
         </body>
     </html>
