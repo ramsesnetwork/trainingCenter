@@ -72,7 +72,7 @@
   font-family: Rage Italic LET;
   opacity: .89;
   color: white;
-  background: url(img/blackboard.png) no-repeat;
+  background: url(../img/blackboard.png) no-repeat;
   background-size: 100%;
   border: solid 1px white;
 }
